@@ -16,7 +16,6 @@ import AccountListView from 'renderer/components/AccountListView';
 import AccountView from 'renderer/components/AccountView';
 import InlinePK from 'renderer/components/InlinePK';
 import LogView from 'renderer/components/LogView';
-import ProgramChangeView from 'renderer/components/ProgramChangeView';
 import {
   AccountsState,
   ACCOUNTS_NONE_KEY,
@@ -25,6 +24,7 @@ import {
   NetStatus,
   WBAccount,
 } from 'types/types';
+import TransactionView from 'renderer/components/TransactionView';
 
 const LIVE_TAB_CHANGES = 'changes';
 const LIVE_TAB_TXN_LOGS = 'logs';
