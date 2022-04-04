@@ -158,12 +158,7 @@ function Accounts() {
 
   let selectedLiveComponent = <LogView />;
   if (selectedLiveTab === LIVE_TAB_CHANGES) {
-    selectedLiveComponent = (
-      <ProgramChangeView
-        accounts={listedAccounts}
-        attemptAccountAdd={attemptAccountAdd}
-      />
-    );
+    selectedLiveComponent = <TransactionView net={net} />;
   }
 
   let display = <></>;
