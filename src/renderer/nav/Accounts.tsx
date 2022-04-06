@@ -235,7 +235,7 @@ function Accounts() {
                   setSelectedLiveTab(LIVE_TAB_CHANGES);
                 }}
               >
-                <small>Program Changes</small>
+                <small>Transactions</small>
               </li>
             </ul>
           </div>
